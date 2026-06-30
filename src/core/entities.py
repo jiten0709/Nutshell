@@ -1,5 +1,5 @@
 """
-This file defines the core entities for Nutshell.io, which include NewsletterSource, IntelligenceNode, and NewsletterDigest. 
+This file defines the core entities for Nutshell, which include NewsletterSource, IntelligenceNode, and NewsletterDigest. 
 These entities are used throughout the application to represent the structured data extracted from raw newsletter content. 
 
 - NewsletterSource captures the origin of the news

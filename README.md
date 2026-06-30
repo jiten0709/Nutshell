@@ -1,4 +1,4 @@
-# Nutshell.io 🥜
+# Nutshell 🥜
 
 _Automated intelligence extraction and semantic deduplication engine for the AI news ecosystem._
 
@@ -58,8 +58,8 @@ _Automated intelligence extraction and semantic deduplication engine for the AI 
 1.  **Clone the repository**
 
     ```bash
-    git clone https://github.com/jiten0709/Nutshell.io.git
-    cd Nutshell.io
+    git clone https://github.com/jiten0709/Nutshell.git
+    cd Nutshell
     ```
 
 2.  **Set up environment**

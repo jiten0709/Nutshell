@@ -1,5 +1,5 @@
 """
-This is the Streamlit app for Nutshell.io, an intelligence engine for AI/ML engineers. 
+This is the Streamlit app for Nutshell, an intelligence engine for AI/ML engineers. 
 It connects to a Qdrant vector database to fetch and display deduplicated and synthesized news updates from various sources. 
 The app features a sidebar for controls and a main feed that highlights trending news based on mention counts.
 """
@@ -19,7 +19,7 @@ load_dotenv()
 COLLECTION_NAME = os.getenv("COLLECTION_NAME", "nutshell")
 
 # Page Config
-st.set_page_config(page_title="Nutshell.io | AI Intelligence", layout="wide", page_icon="🥜")
+st.set_page_config(page_title="Nutshell | AI Intelligence", layout="wide", page_icon="🥜")
 
 # Styling
 st.markdown("""
@@ -206,7 +206,7 @@ def step3_process_and_store():
 # ─────────────────────────────────────────────
 # UI Layout
 # ─────────────────────────────────────────────
-st.title("🥜 Nutshell.io")
+st.title("🥜 Nutshell")
 st.caption("Intelligence engine for AI/ML engineers. Deduplicated & Synthesized.")
 
 # ─────────────────────────────────────────────

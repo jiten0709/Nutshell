@@ -1,5 +1,5 @@
 """
-This is the main FastAPI application file that defines the API endpoints for Nutshell.io.
+This is the main FastAPI application file that defines the API endpoints for Nutshell.
 Its currently unused because we are processing emails directly in the sync_inbox.py script, but it serves as a placeholder for future API endpoints.
 """
 
@@ -12,13 +12,13 @@ from typing import Optional
 from utils.logging_setup import get_logger
 logger = get_logger(__name__, log_file="api_v1.log")
 
-app = FastAPI(title="Nutshell.io API", version="1.0.0")
+app = FastAPI(title="Nutshell API", version="1.0.0")
 
 # welcome endpoint
 @app.get("/")
 async def root():
     return {
-        "message": "Welcome to Nutshell.io API",
+        "message": "Welcome to Nutshell API",
         "endpoints": {
             "webhook": "/webhooks/inbound-email",
             "insights": "/api/v1/insights",
